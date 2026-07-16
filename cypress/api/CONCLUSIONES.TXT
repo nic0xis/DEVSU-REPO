@@ -1,0 +1,18 @@
+CONCLUSIONES
+
+Se desarrollaron dos automatizaciones utilizando Cypress:
+
+1. Prueba E2E del flujo de compra sobre OpenCart.
+2. Prueba CRUD de la API pública PetStore.
+
+Hallazgos:
+
+- La automatización de la API se ejecutó correctamente validando todas las operaciones CRUD mediante los métodos POST, GET, PUT y DELETE.
+
+- La automatización E2E permitió recorrer correctamente el flujo de compra agregando productos, realizando Guest Checkout y llegando hasta la etapa final de Confirm Order.
+
+- Durante la ejecución del entorno de pruebas de OpenCart se observó un comportamiento inconsistente en la confirmación final del pedido bajo automatización, ya que el sitio no siempre redirige a la página de éxito (checkout/success), aunque el flujo funciona correctamente de manera manual en un navegador convencional.
+
+Conclusión:
+
+Las pruebas implementadas validan satisfactoriamente los principales escenarios funcionales solicitados, tanto para pruebas de interfaz como para pruebas de servicios REST, utilizando Cypress como herramienta de automatización.
