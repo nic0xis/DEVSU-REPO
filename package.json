@@ -1,0 +1,27 @@
+{
+  "name": "devsu-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nic0xis/DEVSU-REPO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nic0xis/DEVSU-REPO/issues"
+  },
+  "homepage": "https://github.com/nic0xis/DEVSU-REPO#readme",
+  "devDependencies": {
+    "cypress": "^15.18.1"
+  },
+  "allowScripts": {
+    "cypress@15.18.1": true
+  }
+}

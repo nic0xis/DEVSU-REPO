@@ -1,0 +1,19 @@
+CONCLUSIONES
+
+Se implementó una prueba funcional End-to-End utilizando Cypress para automatizar el flujo de compra como invitado sobre la aplicación OpenCart.
+
+La automatización permite:
+
+- Agregar dos productos al carrito.
+- Visualizar correctamente el carrito de compras.
+- Iniciar el proceso de Checkout.
+- Completar el formulario Guest Checkout.
+- Completar los pasos de Delivery Method y Payment Method.
+
+Durante las pruebas se identificó un comportamiento inconsistente en el entorno de pruebas de OpenCart durante la confirmación final de la orden.
+
+El flujo automatizado llega correctamente hasta el paso "Confirm Order" y ejecuta la acción de confirmación. Sin embargo, en algunas ejecuciones el entorno no realiza la redirección hacia la página de éxito ("Your order has been placed!"), comportamiento que también fue objeto de validación durante la depuración.
+
+Se realizaron múltiples verificaciones sobre tiempos de espera, sincronización del flujo, interceptación de peticiones y validaciones del DOM para asegurar la estabilidad de la automatización.
+
+El proyecto fue desarrollado siguiendo buenas prácticas de automatización mediante Cypress, manteniendo una estructura organizada y fácilmente mantenible.
